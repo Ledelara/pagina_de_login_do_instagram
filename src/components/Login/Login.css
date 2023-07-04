@@ -1,0 +1,136 @@
+/* Class */
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.cell-image-container img {
+    width: 430px;
+}
+
+.column-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 4em 1em 4em;
+    border: 1px solid #b0b0b0;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form input {
+    width: 250px;
+    padding: 0.8em;
+    margin-bottom: 0.5em;
+    font-size: 12px;
+    outline: none;
+}
+
+.login-with-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.login-with-facebook p {
+    font-weight: bold;
+    color: #002a61;
+    margin-left: 0.5em;
+}
+
+.transition-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transition-div p {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+.Register {
+    margin-top: 0.5em;
+    border: 1px solid #b0b0b0;
+}
+
+.download-app img{
+    width: 250px;
+}
+
+.download-app img:hover {
+    cursor: pointer;
+}
+
+/* Id */
+
+#instagram-logo {
+    width: 180px;
+}
+  
+#submit {
+    background-color: #5ea4ff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 0.6em;
+    font-size: 13px;
+    margin-top: 0.5em;
+    width: 100%;
+    cursor: pointer;
+}
+
+#styled-text {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#facebook-logo {
+    width: 20px;
+    height: 20px;
+}
+
+#forgotten-password {
+    font-size: 12px;
+}
+
+#forgotten-password:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .cell-image-container {
+        display: none;
+    }
+
+    .form-container, .Register {
+        border: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cell-image-container {
+        display: none;
+    }
+
+    .form-container, .Register {
+        border: none;
+    }
+}
